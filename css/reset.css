@@ -1,0 +1,164 @@
+html{
+	margin: 0;
+	padding: 0;
+	line-height: 1;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	outline: 0;
+}
+
+blockquote{
+	margin: 0;
+	quotes: none;
+}
+
+fieldset{
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+p{
+	margin: 0;
+}
+
+ol{
+	margin: 0;
+	padding: 0;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+h1{
+	margin: 0;
+}
+
+h2{
+	margin: 0;
+}
+
+h3{
+	margin: 0;
+}
+
+h4{
+	margin: 0;
+}
+
+h5{
+	margin: 0;
+}
+
+h6{
+	margin: 0;
+}
+
+figure{
+	margin: 0;
+}
+
+input{
+	font-family: inherit;
+	line-height: inherit;
+	font-size: 1rem;
+	color: inherit;
+}
+
+textarea{
+	font-family: inherit;
+	line-height: inherit;
+	font-size: 1rem;
+	color: inherit;
+}
+
+input:not([type=radio]):not([type=checkbox]){
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-ms-appearance: none;
+	appearance: none;
+}
+
+select{
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-ms-appearance: none;
+	appearance: none;
+	font-family: inherit;
+	line-height: inherit;
+	font-size: 1rem;
+	color: inherit;
+}
+
+legend{
+	padding: 0;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+q{
+	quotes: none;
+}
+
+button{
+	font-family: inherit;
+	font-size: 1rem;
+	line-height: inherit;
+}
+
+input:focus{
+	outline: 0;
+}
+
+button:focus{
+	outline: 0;
+}
+
+select:focus{
+	outline: 0;
+}
+
+
+/* ie 11 compatibility */
+header{
+	display: block;
+}
+
+nav{
+	display: block;
+}
+
+main{
+	display: block;
+}
+
+footer{
+	display: block;
+}
+/* end ie 11 compatibility */
+
+
+/* firefox compatibility */
+button::-moz-focus-inner{ /* needed to workaround bug that doesn't let us set padding in button elements: https://bugzilla.mozilla.org/show_bug.cgi?id=140562 */
+	border: 0;
+	padding: 0;
+}
+
+input::-moz-focus-inner{ /* needed to workaround bug that doesn't let us set padding in button elements: https://bugzilla.mozilla.org/show_bug.cgi?id=140562 */
+	border: 0;
+	padding: 0;
+}
+/* end firefox compatibility */
